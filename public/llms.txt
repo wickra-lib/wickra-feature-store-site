@@ -1,0 +1,15 @@
+# Wickra Feature Store
+
+> Fold OHLCV and microstructure event streams into ML-ready feature/label matrices over the 514 streaming indicators of the Wickra core. A build is a JSON FeatureSpec — not code — folded into one feature row per bar with forward-looking labels, deterministic and byte-identical across all ten language bindings and between the parallel (rayon) and sequential (WASM) paths.
+
+Wickra Feature Store folds a serde `FeatureSpec` (a universe, an ordered list of indicator/price/microstructure feature columns, and forward-looking label columns) over each symbol's history. The core logic lives in one Rust crate and is reachable from Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R, plus a reference CLI with CSV / Arrow / Parquet output. Every binding produces a byte-identical matrix, pinned by golden fixtures in CI. Released under the MIT OR Apache-2.0 license.
+
+## Source and packages
+- [GitHub](https://github.com/wickra-lib/wickra-feature-store): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/wickra-feature-store): Rust crate.
+- [PyPI](https://pypi.org/project/wickra-feature-store/): Python package.
+- [npm](https://www.npmjs.com/package/wickra-feature-store): Node package.
+
+## Ecosystem
+- [Wickra](https://wickra.org): The core streaming-indicator library the feature store is built on.
+- [Docs](https://docs.wickra.org): Documentation for the Wickra core.

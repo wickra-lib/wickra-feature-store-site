@@ -29,7 +29,7 @@ const structuredData = {
       operatingSystem: 'Windows, macOS, Linux, WebAssembly',
       programmingLanguage: ['Rust', 'Python', 'JavaScript', 'WebAssembly', 'C', 'C++', 'C#', 'Go', 'Java', 'R'],
       description:
-        'Turn OHLCV and microstructure event streams into ML-ready feature matrices over 514 streaming indicators, in ten languages. Built on the Wickra core.',
+        'Turn OHLCV and microstructure event streams into ML-ready feature matrices over 495 streaming indicators, in ten languages. Built on the Wickra core.',
       license: 'https://github.com/wickra-lib/wickra-feature-store#license',
       publisher: { '@id': 'https://feature-store.wickra.org/#organization' },
     },
@@ -39,7 +39,7 @@ const structuredData = {
 export default defineConfig({
   title: 'Wickra Feature Store',
   description:
-    'Turn OHLCV and microstructure event streams into ML-ready feature matrices over 514 streaming indicators, in ten languages. Built on the Wickra core.',
+    'Turn OHLCV and microstructure event streams into ML-ready feature matrices over 495 streaming indicators, in ten languages. Built on the Wickra core.',
   lang: 'en-US',
   cleanUrls: true,
 
@@ -66,7 +66,7 @@ export default defineConfig({
       {
         property: 'og:description',
         content:
-          'One FeatureSpec folded over 514 streaming indicators into a feature/label matrix, in ten languages. Deterministic and byte-identical across every binding.',
+          'One FeatureSpec folded over 495 streaming indicators into a feature/label matrix, in ten languages. Deterministic and byte-identical across every binding.',
       },
     ],
     ['meta', { property: 'og:image', content: 'https://feature-store.wickra.org/og-banner.webp' }],

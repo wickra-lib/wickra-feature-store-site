@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://feature-store.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.svg?v=514-8" alt="Wickra Feature Store — OHLCV and microstructure streams into ML-ready feature matrices over the 514 O(1) streaming indicators" width="100%"></a>
+  <a href="https://feature-store.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.svg?v=514-8" alt="Wickra Feature Store — OHLCV and microstructure streams into ML-ready feature matrices over the 495 O(1) streaming indicators" width="100%"></a>
 </p>
 
 [![Built on Wickra](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-feature-store-site/built-on.svg)](https://github.com/wickra-lib/wickra)
@@ -15,7 +15,7 @@ Built with [VitePress](https://vitepress.dev).
 The structure mirrors [webpage](https://github.com/wickra-lib/webpage)
 (wickra.org) and [wickra-docs](https://github.com/wickra-lib/wickra-docs)
 (docs.wickra.org): shared header, footer, theme, badge pipeline and workflows.
-**Wickra Feature Store** — OHLCV and microstructure streams into ML-ready feature matrices over the 514 O(1) streaming indicators. The library itself is
+**Wickra Feature Store** — OHLCV and microstructure streams into ML-ready feature matrices over the 495 O(1) streaming indicators. The library itself is
 [`wickra-lib/wickra-feature-store`](https://github.com/wickra-lib/wickra-feature-store); its README carries the install line and a quick start for every language.
 
 ## Develop

@@ -1,7 +1,7 @@
 # About Wickra Feature Store
 
 Wickra Feature Store folds OHLCV and microstructure event streams into ML-ready
-feature/label matrices over the 514 streaming indicators of the Wickra core. A
+feature/label matrices over the 495 streaming indicators the backtest registry resolves. A
 build is a JSON document — **data, not code** — so the exact same feature build
 runs in every one of ten languages and returns byte-for-byte identical results.
 
@@ -10,7 +10,7 @@ runs in every one of ten languages and returns byte-for-byte identical results.
 - **The build is data.** A serde `FeatureSpec` — a `universe`, an ordered list of
   indicator / price / microstructure feature columns, and forward-looking label
   columns. Because it is data, it crosses the C ABI and WASM unchanged.
-- **514 indicators.** Any feature column can reference any Wickra indicator (`Rsi`,
+- **495 indicators.** Any feature column can reference any of them by name (`Rsi`,
   `Ema`, `Macd`, `BollingerBands`, …), emitted one row per bar.
 - **Forward-looking labels.** Forward returns over a horizon and triple-barrier
   labels are computed from future bars and aligned to the row that predicts them.

@@ -1,6 +1,6 @@
 # Wickra Feature Store
 
-> Fold OHLCV and microstructure event streams into ML-ready feature/label matrices over the 514 streaming indicators of the Wickra core. A build is a JSON FeatureSpec — not code — folded into one feature row per bar with forward-looking labels, deterministic and byte-identical across all ten language bindings and between the parallel (rayon) and sequential (WASM) paths.
+> Fold OHLCV and microstructure event streams into ML-ready feature/label matrices over the 495 streaming indicators the backtest registry resolves. A build is a JSON FeatureSpec — not code — folded into one feature row per bar with forward-looking labels, deterministic and byte-identical across all ten language bindings and between the parallel (rayon) and sequential (WASM) paths.
 
 Wickra Feature Store folds a serde `FeatureSpec` (a universe, an ordered list of indicator/price/microstructure feature columns, and forward-looking label columns) over each symbol's history. The core logic lives in one Rust crate and is reachable from Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R, plus a reference CLI with CSV / Arrow / Parquet output. Every binding produces a byte-identical matrix, pinned by golden fixtures in CI. Released under the MIT OR Apache-2.0 license.
 

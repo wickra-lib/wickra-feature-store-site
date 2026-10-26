@@ -1,7 +1,7 @@
 {
   "name": "Wickra Feature Store",
   "short_name": "Wickra Feature Store",
-  "description": "Parallel multi-symbol screening over 514 streaming indicators.",
+  "description": "OHLCV and microstructure streams into ML-ready feature matrices over the 495 O(1) streaming indicators.",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }

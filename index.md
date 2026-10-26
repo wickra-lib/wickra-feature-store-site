@@ -6,7 +6,7 @@ titleTemplate: false
 hero:
   name: "Wickra Feature Store"
   text: "One spec. A feature matrix."
-  tagline: "Fold OHLCV and microstructure event streams into ML-ready feature/label matrices over 514 streaming indicators. A build is a JSON FeatureSpec — data, not code — deterministic and byte-identical across ten languages."
+  tagline: "Fold OHLCV and microstructure event streams into ML-ready feature/label matrices over 495 streaming indicators. A build is a JSON FeatureSpec — data, not code — deterministic and byte-identical across ten languages."
   image:
     src: /wickra-mark.svg
     alt: Wickra Feature Store
@@ -26,8 +26,8 @@ features:
     title: The build is JSON, not code
     details: A build is a serde FeatureSpec — a universe, an ordered list of indicator / price / microstructure feature columns, and forward-looking label columns. Because it is data, the exact same feature build crosses the C ABI and WASM unchanged.
   - icon: 📈
-    title: 514 indicators
-    details: "Every feature column can reference any of the 514 O(1) streaming indicators from the Wickra core — Rsi, Ema, Macd, BollingerBands and the rest — emitted one row per bar."
+    title: 495 indicators
+    details: "Every feature column can reference any of the 495 O(1) streaming indicators the backtest registry resolves — Rsi, Ema, Macd, BollingerBands and the rest — emitted one row per bar."
   - icon: 🏷️
     title: Forward-looking labels
     details: "Join supervised targets to each row — forward returns over a horizon, or triple-barrier labels — computed from future bars and aligned to the feature row that predicts them."
@@ -141,8 +141,8 @@ Construct a `FeatureStore` from the JSON spec, then drive it with
 ## Built on the Wickra core
 
 Wickra Feature Store is part of the [Wickra](https://wickra.org) ecosystem. Every
-feature column draws on the 514 O(1) streaming indicators of
-[`wickra-core`](https://github.com/wickra-lib/wickra), so a matrix sees exactly
+feature column draws on the 495 O(1) streaming indicators the backtest registry
+resolves from [`wickra-core`](https://github.com/wickra-lib/wickra), so a matrix sees exactly
 the same numbers a backtest or a live chart would.
 
 > Wickra Feature Store is a software library, not a trading system, and comes with
